@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+    
+}
+*{margin: 0;
+padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    display:flex;
+    align-items: center ;
+    list-style-type: none;
+    height: 65px;
+    background-color:black;
+    color: blanchedalmond;
+
+}
+nav ul li{
+    padding:0px 12px ;
+}
+.brand img{
+    width: 64px;
+    padding: 0px 5px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 42vw;
+    
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 23px auto;
+    width: 70%;
+    padding: 34px;
+    background-image: url('back.jpg');
+    background-size: cover;
+   
+}
+.songitemcontainer{
+    margin: 10px 36px;
+}
+.songlist{
+    display: flex;
+    
+}
+.songItem{
+    height: 71px;
+    width: 397px;
+    display: flex;
+    margin: -2px -53px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.songItem img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+.timestamp{
+    cursor: pointer;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:static;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    flex-direction: column;
+    
+    
+}
+.icon{
+    margin-top: 14px;
+
+}
+.icon i{
+    cursor: pointer;
+}
+#myPregressBar{
+    width: 70vw;
+}
